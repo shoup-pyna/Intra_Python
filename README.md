@@ -2,7 +2,7 @@
 Projet de cafétéria universitaire développé en Python pour l'intra de programmation.
 
 ## Participants
-- Étudiants : Charles Shouppyna, 
+- Étudiants : Charles Shouppyna, Wilbert-son Desema
 - Cours : Python
 - Prof : Ralph Dumera
 
