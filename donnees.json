@@ -1,0 +1,31 @@
+{
+    "ingredients": [
+        {
+            "id": 1,
+            "nom": "Pain",
+            "quantite": 2.0,
+            "unite": "kg",
+            "seuil_min": 1.0
+        },
+        {
+            "id": 2,
+            "nom": "Pain",
+            "quantite": 2.0,
+            "unite": "kg",
+            "seuil_min": 1.0
+        }
+    ],
+    "produits": [],
+    "clients": [],
+    "commandes": [],
+    "historique": [
+        "Ajout de l'ingrédient : Pain",
+        "Ajout de l'ingrédient : Pain"
+    ],
+    "identifiants": {
+        "ingredient": 3,
+        "produit": 1,
+        "client": 1,
+        "commande": 1
+    }
+}
