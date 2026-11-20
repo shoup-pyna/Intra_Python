@@ -13,4 +13,4 @@ L'application permet de gérer l'inventaire des ingrédients, les recettes de la
 1. S'assurer d'avoir installé **Python 3.8+**.
 2. Lancer l'application principale via la commande :
    ```bash
-   python main.py
+   python # main.py
