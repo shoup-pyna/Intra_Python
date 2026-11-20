@@ -37,13 +37,22 @@ def lire_nombre(message):
 
 
 def afficher_message(resultat):
-    """Affiche le résultat d'une opération de gestion."""
-    succes, message = resultat
 
-    if succes:
-        print(f"\nSUCCÈS : {message}")
+    if resultat is None:
+        return
+
+    if isinstance(resultat, tuple) and len(resultat) == 2:
+
+        succes, message = resultat
+
+        if succes:
+            print(f"\n[SUCCESS] {message}")
+
+        else:
+            print(f"\n[ERREUR] {message}")
+
     else:
-        print(f"\nERREUR : {message}")
+        print(resultat)
 
 
 
